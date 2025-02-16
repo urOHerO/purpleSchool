@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "title": "Это заголовок который придумал Ильдар",
+    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, eum ullam eaque laborum.",
+    "date": "2025/03/12"
+},
+{
+    "id": 2,
+    "title": "Это заголовок который придумал не Ильдар",
+    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, eum ullam eaque laborum.",
+    "date": "2024/01/19"
+}
