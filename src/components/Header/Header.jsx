@@ -1,10 +1,17 @@
-import React from 'react'
-import './Header.css'
+import React, { useCallback, useState } from "react";
+import s from "./Header.module.css";
+import SelectUser from "../SelectUser/SelectUser";
+import Logo from "../Logo/Logo";
+
+
 
 const Header = () => {
   return (
-    <img className='logo' src="./logo1.svg" alt="Логотип журнала" />
-  )
-}
+    <div className={s.header}>
+      <Logo image='/logo1.svg' />
+      <SelectUser />
+    </div>
+  );
+};
 
-export default Header
+export default Header;

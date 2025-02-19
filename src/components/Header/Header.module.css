@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    position: relative;
+    top: -30px;
+    width: 280px;
+    height: 200px;
+}
